@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <div style="background-color: rgb(132, 170, 55);
+    border-radius: 20px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+    ">
+
+  <head>
+    <h1
+      style="
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        text-align: center;
+        margin-right: 50px;
+        /* background-color: rgb(132, 132, 206); */
+        padding-bottom: 10px;
+        padding-top: 10px;
+        color: tomato;
+        border: 6px solid tomato;
+        margin: 0px;
+        /* border-collapse: collapse; */
+      
+        
+      "
+    >
+      login
+  </h1>
+  </head>
+  <link rel="stylesheet" href="/styles.css" />
+  <body>
+      <div
+        style="
+         /* background-image: url(src/assets/bg.jpg); */
+        /* background-repeat:  no-repeat; */
+        /* background-position: center; */
+        /* align-self: center; */
+          align-items: center;
+          justify-content: center;
+          
+          /* text-align:center; */
+          /* top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0; */
+
+          margin: auto;
+          width: 290px;
+          height: 400px;
+           background-color: rgb(83, 218, 150); 
+          padding-top: 25px;
+          padding-left: 50px;
+          border-radius: 20px;
+          
+
+         
+        "
+      >
+        <p
+          style="
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+          "
+        >
+          username
+        </p>
+        <img src="src/assets/icon1.png" width="5%" height="5%" />
+        <input placeholder="enter your name" /> <br />
+        <p
+          style="
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 20px;
+          "
+        >
+          password
+        </p>
+        <img src="src/assets/icon2.png" width="5%" height="5%" />
+        <input type="password" placeholder="enter your password" /> <br />
+        <p> <b> <i> forget password?></i></b></p>
+        <button class="button" onclick="alert('stb')">submit</button>
+        <h5 style="text-align:center;
+        padding-right: 50px;
+       "><em>or <mark>SIGN UP</mark> using</em></h5>
+
+        <button class="fb"></button>
+        <button class="ig"></button>
+        <button class="m"></button>
+         <button class="colorbutton" id="1" onclick="myfunction()">click</button>
+        <script> 
+        
+        function myfunction() {
+           document.getElementById("1").style.backgroundColor="red";
+          var a = document.getElementById("1").style.backgroundColor;
+          // alert(a)
+        }
+
+        </script>
+        <script>
+          function changecolor(){document.getElementById("1").style.backgroundcolor="yellow";
+          var a= document.getElementbyId("1").style.backgroundcolor;}
+          </script>
+        
+
+
+      </div>
+    </div>
+  
+  </body>
+</html>

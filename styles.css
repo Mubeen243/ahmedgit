@@ -1,0 +1,46 @@
+.larger-text {
+  font-size: 32px;
+}
+.b {
+  color: red;
+}
+.a {
+  color: brown;
+}
+.button {
+  margin-left: 90px;
+  border-radius: 100px;
+  /* background-color: blue; */
+  /* height: 50px; */
+  /* width: 50px; */
+  /* background-image:  */
+}
+.fb {
+  margin-left: 50px;
+  width: 28px;
+  height: 28px;
+  border-radius: 20px;
+  background-image: url(src/assets/iconf.png);
+  background-color: rgb(50, 50, 104);
+  background-repeat: no-repeat;
+}
+.ig {
+  margin-left: 30px;
+  background-image: url(src/assets/iconig.png);
+  height: 30px;
+  width: 30px;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-color: rgb(170, 32, 32);
+}
+.m {
+  margin-left: 30px;
+  background-image: url(src/assets/iconm.png);
+  height: 29px;
+  width: 29px;
+  border-radius: 13px;
+  background-color: rgb(139, 33, 33);
+}
+.colorbutton {
+  background-color: greenyellow;
+}
