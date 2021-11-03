@@ -1,0 +1,67 @@
+#head {
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin: auto;
+  text-decoration: wavy;
+}
+#newtask {
+  width: 85%;
+  padding: 10px;
+  justify-content: center;
+  margin-left: 3%;
+  text-align: center;
+  position: relative;
+  border-radius: 25px;
+  border-color: darkslategray;
+}
+#addbutton {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 13px;
+  width: 8%;
+  border-radius: 25px;
+}
+#addbutton:hover {
+  background-color: rgb(161, 174, 187);
+  cursor: pointer;
+}
+
+#topbar {
+  margin: 0;
+  padding: 45px;
+  border-radius: 65px;
+  background: #ff4b1f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #1fddff,
+    #ff4b1f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #1fddff,
+    #ff4b1f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: auto;
+}
+#mylist {
+  list-style-type: square;
+  font-size: 20px;
+  line-height: 60px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  padding-left: 10%;
+  margin: 0;
+  border-bottom: 8%;
+}
+
+#delbtn {
+  height: 30px;
+  width: 32px;
+  border-radius: 30%;
+}
+#delbtn:hover {
+  cursor: pointer;
+  background-color: rgb(121, 38, 23);
+}
